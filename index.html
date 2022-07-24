@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Project</title>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/6975ac0331.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+
+
+    <nav>
+
+    <div class="logo-title">
+
+        <img class="logo" src="./tools/logo.svg" alt=""> 
+        <h2>Treact</h2> 
+
+    </div>
+    <ul>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#services">Services</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        <li><a class="nav-link" href="#contact">Contact Us</a></li>
+        <li><a class="nav-link login-link" href="#">Login</a></li>
+        <li><a class="nav-link button-style" href="#">Sign Up</a></li>
+    </ul>
+
+    <button class=" btn-menu" onclick="openMenu()">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="menu-backdrop">
+
+        <button class="btn-menu btn-menu-close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+        </button>
+    
+        <ul class="menu-stack">
+            <li class="menu-list"><a href="#about" class="menu-link" onclick="closeMenu()">About</a></li>
+            <li class="menu-list"><a href="#services" class="menu-link" onclick="closeMenu()">Services</a></li>
+            <li class="menu-list"><a href="#pricing" class="menu-link" onclick="closeMenu()">Pricing</a></li>
+            <li class="menu-list"><a href="#contact" class="menu-link" onclick="closeMenu()">Contact Us</a></li>
+            <li class="menu-list"><a href="#" class="menu-link" onclick="closeMenu()">Login</a></li>
+            <li class="menu-list"><a href="#" class="menu-link" onclick="closeMenu()">Sign up</a></li>
+
+        </ul>
+    </div>
+
+    </nav>
+
+    <div class="row" id="about">
+
+        <div class="intro-container">
+
+            <div class="intro intro-margin">
+                <h2 class="intro-margin intro-header">Beautiful React Templates <span class="purple-text">for you.</span></h2>
+                <p class="intro-margin">
+                    Our templates are easy to setup, understand and customize.
+                    Fully modular components with a variety of pages and 
+                    components.
+                </p>
+            <div class="email intro-margin">
+                <input class="input-email" type="email" placeholder="email@address.com">
+                <button class="button-style btn-body btn-start">Get Started</button>
+            </div>
+
+            <div class="customers ">
+                <p>OUR TRUSTED CUSTOMERS</p>
+                <img class="customers-pic" src="./tools/trusted-customers.png" alt="">
+            </div>
+
+            </div>
+
+            
+                <img class="intro-image" src="./tools/intro-img.svg" alt="">
+            
+
+        </div>
+
+    </div>
+
+    <div class="container">
+
+        <div class="row" id="services">
+
+            <h3 class="features features-content purple-text">Features</h3>
+
+            <h1 class="features-content features-title">We have Amazing <span class="purple-text">Services.</span></h1>
+
+            <h3 class="features-content features-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                 sed do eiusmod tempor incididunt ut labore et dolore magna 
+                 aliqua.
+            </h3>
+
+
+            <div class="services">
+                
+                <div class="service">
+                    <div class="icon-wrapper">
+                        <img class="icon-img" src="./tools/shield-icon.svg" alt="">
+                    </div>
+                    <div class="service-description">
+                    <h2>Secure</h2>
+                    <p>
+                        We strictly only deal with vendors 
+                        that provide top notch security.
+                    </p>
+                </div>
+                </div>
+
+                <div class="service">
+                    <div class="icon-wrapper">
+                        <img class="icon-img" src="./tools/support-icon.svg" alt="">
+                    </div>
+                <div class="service-description">
+                    
+                    <h2>24/7 Support</h2>
+                    <p>
+                        Lorem ipsum donor amet siti ceali 
+                        ut enim ad minim veniam, quis nostrud.
+                    </p>
+                </div> 
+                </div>
+
+                <div class="service">
+                    <div class="icon-wrapper">
+                        <img class="icon-img" src="./tools/customize-icon.svg" alt="">
+                    </div>
+                <div class="service-description">
+                    <h2>Customizable</h2>
+                    <p>
+                        Lorem ipsum donor amet siti ceali 
+                        ut enim ad minim veniam, quis nostrud.
+                    </p>
+                </div>
+                </div>
+
+                <div class="service">
+                    <div class="icon-wrapper">
+                        <img class="icon-img" src="./tools/reliable-icon.svg" alt="">
+                    </div>
+                <div class="service-description">
+                    <h2>Reliable</h2>
+                    <p>
+                        Lorem ipsum donor amet siti ceali 
+                        ut enim ad minim veniam, quis nostrud.
+                    </p>
+                </div>
+                </div>
+
+                <div class="service">
+                    <div class="icon-wrapper">
+                        <img class="icon-img" src="./tools/fast-icon.svg" alt="">
+                    </div>
+                <div class="service-description">
+                    <h2>Fast</h2>
+                    <p>
+                        Lorem ipsum donor amet siti ceali 
+                        ut enim ad minim veniam, quis nostrud.
+                    </p>
+                    </div>
+                </div>
+
+                <div class="service">
+                    <div class="icon-wrapper">
+                        <img class="icon-img" src="./tools/simple-icon.svg" alt="">
+                    </div>
+                <div class="service-description">
+                    <h2>Easy</h2>
+                    <p>
+                        Lorem ipsum donor amet siti ceali 
+                        ut enim ad minim veniam, quis nostrud.
+                    </p>
+                </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+
+        <div class="hero-container">
+
+            <div class="hero">
+
+                <h2 class="purple-text hero-item">QUALITY WORK</h2>
+                <h1 class="hero-item">Designed & Developed by <span class="purple-text">Professionals.</span></h1>
+                <p class="hero-item">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <button class="button-style btn-body btn-start">Learn More</button>
+            </div>
+
+            <img class="hero-img" src="./tools/hero.png" alt="">
+
+
+        </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+
+    <div class="row section-margin">
+
+    <div class="starting">
+
+        <img class="laptop-img" src="./tools/laptop.png" alt="">
+
+        <div class="get-started">
+
+            <h3 class="purple-text">STEPS</h3>
+            <h1>Easy to <span class="purple-text">Get Started.</span></h1>
+
+            <h3 class="starting-steps first-step">1. Register</h3>
+            <p>Create an account with us using Google or Facebook.</p>
+
+            <h3 class="starting-steps">2. Download</h3>
+            <p>Browse and Download the template that you like from the marketplace.</p>
+
+            <h3 class="starting-steps">3. Run</h3>
+            <p>Follow the instructions to setup and customize the template to your needs.</p>
+
+        </div>
+
+    </div>
+
+    </div>
+
+</div>
+
+    <div class="row section-margin mar" id="pricing">
+
+    <div class="pricing-title ">
+        <h3 class="purple-text">PRICING</h3>
+        <h1 class="pricing-header">Reasonable & Flexible Plans.</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua.
+        </p>
+    </div>
+
+    <div class="plans">
+
+        <div class="plan personal">
+
+            <h3>PERSONAL</h3>
+            <h1>$17.99</h1>
+            <p>MONTHLY</p>
+            <hr class="personal-hr">
+            <h3>For Individuals</h3>
+            <p>30 Templates</p>
+            <p>7 Landing Pages</p>
+            <p>12 Internal Pages</p>
+            <p>Basic Assistance</p>
+            <hr class="personal-hr">
+            <button class="button-style btn-body btn-personal">Buy Now</button>
+
+
+        </div>
+        <div class="plan business">
+
+            <h3>BUSINESS</h3>
+            <h1>$37.99</h1>
+            <p class="payment-term">MONTHLY</p>
+            <hr class="business-hr">
+            <h3>For Small Businesses</h3>
+            <p>60 Templates</p>
+            <p>15 Landing Pages</p>
+            <p>22 Internal Pages</p>
+            <p>Priority Assistance</p>
+            <hr class="business-hr">
+            <button class="button-style btn-body btn-business">Buy Now</button>
+
+
+        </div>
+        <div class="plan enterprise">
+
+            <h3>ENTERPRISE</h3>
+            <h1>$57.99</h1>
+            <p>MONTHLY</p>
+            <hr class="enterprise-hr">
+            <h3>For Large Companies</h3>
+            <p>30 Templates</p>
+            <p>7 Landing Pages</p>
+            <p>12 Internal Pages</p>
+            <p>Basic Assistance</p>
+            <hr class="enterprise-hr">
+            <button class="button-style btn-body btn-enterprise">Buy Now</button>
+
+
+        </div>
+
+
+    </div>
+
+    </div>
+
+    <div class="footer-container">
+        <div class="row footer-row">
+
+            <div class="links">
+
+                <div class="link">
+
+                    <h3>MAIN</h3>
+
+                    <ul class="footer-link">
+                        <li><a class="footer-anchor" href="#">Blog</a></li>
+                        <li><a class="footer-anchor" href="#">FAQs</a></li>
+                        <li><a class="footer-anchor" href="#"> Support</a></li>
+                        <li><a class="footer-anchor" href="#">About</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="link">
+
+                    <h3>PRODUCT</h3>
+
+                    <ul class="footer-link">
+                        <li><a class="footer-anchor" href="#">Log In</a></li>
+                        <li><a class="footer-anchor" href="#">Personal</a></li>
+                        <li><a class="footer-anchor" href="#"> Business</a></li>
+                        <li><a class="footer-anchor" href="#">Team</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="link">
+
+                    <h3>PRESS</h3>
+
+                    <ul class="footer-link">
+                        <li><a class="footer-anchor" href="#">Logos</a></li>
+                        <li><a class="footer-anchor" href="#">Events</a></li>
+                        <li><a class="footer-anchor" href="#"> Stories</a></li>
+                        <li><a class="footer-anchor" href="#">Office</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="link">
+
+                    <h3>TEAM</h3>
+
+                    <ul class="footer-link">
+                        <li><a class="footer-anchor" href="#">Career</a></li>
+                        <li><a class="footer-anchor" href="#">Founders</a></li>
+                        <li><a class="footer-anchor" href="#">Culture</a></li>
+                        <li><a class="footer-anchor" href="#">Onboarding</a></li>
+                    </ul>
+
+                </div>
+
+                <!-- <div class="link">
+
+                    <h3>Legal</h3>
+
+                    <ul class="footer-link">
+                        <li><a class="footer-anchor" href="#">GDPR</a></li>
+                        <li><a class="footer-anchor" href="#">Privacy Policy</a></li>
+                        <li><a class="footer-anchor" href="#">Terms of Service</a></li>
+                        <li><a class="footer-anchor" href="#">Disclaimer</a></li>
+                    </ul>
+
+                </div> -->
+
+            </div>
+
+            <div class="footer-info">
+
+                <div class="logo-footer">
+                    
+                     <img class="logo-light" src="./tools/logo-light.svg" alt="">
+                     <a href="#top">
+                     <h2>Treact Inc.</h2> 
+                     </a>
+                </div>
+
+                <p class="copyright">© 2018 Treact Inc. All Rights Reserved.</p>
+
+                <div class="footer-socials">
+                    <p><a href="#"><i class="fa-brands fa-facebook-f"></i></a></p>
+                    <p><a href="#"><i class="fa-brands fa-instagram"></i></a></p>
+                    <p><a href="#"><i class="fa-brands fa-youtube"></i></a></p>
+                </div>
+
+            </div>
+
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
